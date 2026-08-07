@@ -4,7 +4,7 @@ import Image from "next/image";
 const categories = [
   {
     title: "Bath & Body Care",
-    image: "/images/hospitality/categories/bath-body1.png",
+    image: "/images/hospitality/categories/bath-body.png",
     description:
       "Premium guest amenities designed to create a memorable bathing experience.",
     products: [
@@ -17,7 +17,7 @@ const categories = [
   },
   {
     title: "Room & Linen Care",
-    image: "/images/hospitality/categories/room-linen1.png",
+    image: "/images/hospitality/categories/room-linen.png",
     description:
       "Luxury fragrances that keep every guest room fresh and inviting.",
     products: [
@@ -29,7 +29,7 @@ const categories = [
   },
   {
     title: "Home & Cleaning Essentials",
-    image: "/images/hospitality/categories/cleaning1.png",
+    image: "/images/hospitality/categories/cleaning.png",
     description:
       "Professional cleaning products for hospitality businesses.",
     products: [
@@ -41,7 +41,7 @@ const categories = [
   },
   {
     title: "Gift & Packaging",
-    image: "/images/hospitality/categories/gift-packaging1.png",
+    image: "/images/hospitality/categories/gift-packaging.png",
     description:
       "Elegant presentation for hotels, resorts and corporate gifting.",
     products: [

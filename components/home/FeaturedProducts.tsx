@@ -59,9 +59,12 @@ export default function FeaturedProducts() {
                     {product.price}
                   </span>
 
-                  <Button size="sm">
-                    Shop Now
-                  </Button>
+                  <Button
+  href="/bulk-quote"
+  size="sm"
+>
+  Buy Now
+</Button>
                 </div>
               </div>
             </article>

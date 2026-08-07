@@ -10,16 +10,18 @@ import RelatedProducts from "@/components/product/RelatedProducts";
 import HotelCTA from "@/components/product/HotelCTA";
 
 type Props = {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 };
 
-export default function ProductPage({
+export default async function ProductPage({
   params,
 }: Props) {
+  const { slug } = await params;
+
   const product = PRODUCTS.find(
-    (item) => item.slug === params.slug
+    (item) => item.slug === slug
   );
 
   if (!product) {
@@ -28,8 +30,6 @@ export default function ProductPage({
 
   return (
     <main className="bg-[#FAF8F5]">
-
-      {/* Product */}
 
       <section className="mx-auto max-w-7xl px-6 py-20">
 
