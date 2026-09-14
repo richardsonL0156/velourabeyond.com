@@ -60,12 +60,12 @@ export const PRODUCTS: Product[] = [
 
     price: 219,
 
-    image: "/images/products/midnight-calm.png",
+    image: "/images/products/Midnight-calm.png",
 
     gallery: [
-      "/images/products/midnight-calm.png",
-      "/images/products/midnight-calm-2.png",
-      "/images/products/midnight-calm-3.png",
+      "/images/products/Midnight-calm.png",
+      "/images/products/Midnight-calm-2.png",
+      "/images/products/Midnight-calm-3.png",
     ],
 
     shortDescription:
@@ -128,12 +128,12 @@ export const PRODUCTS: Product[] = [
 
     price: 229,
 
-    image: "/images/products/silk-meadow.png",
+    image: "/images/products/Silk-meadow.png",
 
     gallery: [
-      "/images/products/silk-meadow.png",
-      "/images/products/silk-meadow-2.png",
-      "/images/products/silk-meadow-3.png",
+      "/images/products/Silk-meadow.png",
+      "/images/products/Silk-meadow-2.png",
+      "/images/products/Silk-meadow-3.png",
     ],
 
     shortDescription:
@@ -195,12 +195,12 @@ export const PRODUCTS: Product[] = [
 
     price: 219,
 
-    image: "/images/products/golden-harmony.png",
+    image: "/images/products/Golden-harmony.png",
 
     gallery: [
-      "/images/products/golden-harmony.png",
-      "/images/products/golden-harmony-2.png",
-      "/images/products/golden-harmony-3.png",
+      "/images/products/Golden-harmony.png",
+      "/images/products/Golden-harmony-2.png",
+      "/images/products/Golden-harmony-3.png",
     ],
 
     shortDescription:
