@@ -35,27 +35,22 @@ export type Product = {
 
   reviews?: number;
 
-  // NEW
   scentNotes?: string[];
 
-  // NEW
   bestFor?: string[];
 
-  // NEW
   skinType?: string;
 
-  // NEW
   color?: string;
 
-  // NEW
   href?: string;
 };
 
 export const PRODUCTS: Product[] = [
   {
-    slug: "pure-luxe",
+    slug: "midnight-calm",
 
-    name: "Pure Luxe",
+    name: "Midnight Calm",
 
     collection: "Essentials",
 
@@ -63,53 +58,134 @@ export const PRODUCTS: Product[] = [
 
     status: "In Stock",
 
-    price: 189,
+    price: 219,
 
-    image: "/images/products/pure-luxe.png",
+    image: "/images/products/midnight-calm.png",
 
     gallery: [
-      "/images/products/pure-luxe.png",
-      "/images/products/pure-luxe-2.png",
-      "/images/products/pure-luxe-3.png",
-      "/images/products/pure-luxe-4.png",
+      "/images/products/midnight-calm.png",
+      "/images/products/midnight-calm-2.png",
+      "/images/products/midnight-calm-3.png",
     ],
 
     shortDescription:
-      "A gentle fragrance-free handcrafted soap for everyday luxury.",
+      "A botanical detox soap with activated charcoal, kaolin clay, and calming chamomile & eucalyptus.",
 
     description:
-      "Pure Luxe delivers a rich creamy lather with nourishing oils that gently cleanse while leaving skin feeling soft, refreshed, and moisturized.",
+      "Midnight Calm is a handcrafted botanical detox bar designed for a deep, refreshing cleanse. Activated charcoal helps lift dirt and impurities, while kaolin clay gently purifies and refines the skin. Aloe vera oil and vitamin E help leave skin feeling soft and nourished, finished with a calming chamomile and eucalyptus aroma.",
 
-    fragrance: "Fragrance Free",
+    fragrance: "Chamomile & Eucalyptus",
 
     weight: "100 g",
 
     ingredients: [
-      "Palm Oil",
-      "Coconut Oil",
-      "Olive Oil",
-      "Castor Oil",
-      "Aloe Vera Oil",
-      "Goat Milk",
+      "Activated Charcoal",
       "Kaolin Clay",
+      "Olive Oil",
+      "Aloe Vera Oil",
       "Vitamin E",
-      "Honey",
+      "Chamomile & Eucalyptus",
+    ],
+
+    benefits: [
+      "Deep Cleansing",
+      "Purifying",
+      "Helps Remove Impurities",
+      "Gentle Daily Use",
+      "Calming Aroma",
+    ],
+
+    featured: true,
+
+    badge: "NEW",
+
+    scentNotes: [
+      "Chamomile",
+      "Eucalyptus",
+    ],
+
+    bestFor: [
+      "Deep Cleansing",
+      "Refreshing",
+      "Daily Body Care",
+    ],
+
+    skinType: "All Skin Types",
+
+    color: "Charcoal Black",
+  },
+
+  {
+    slug: "silk-meadow",
+
+    name: "Silk Meadow",
+
+    collection: "Essentials",
+
+    category: "Bar Soap",
+
+    status: "In Stock",
+
+    price: 229,
+
+    image: "/images/products/silk-meadow.png",
+
+    gallery: [
+      "/images/products/silk-meadow.png",
+      "/images/products/silk-meadow-2.png",
+      "/images/products/silk-meadow-3.png",
+    ],
+
+    shortDescription:
+      "A luxurious handcrafted soap with colloidal oats, goat milk, aloe vera oil, and vitamin E.",
+
+    description:
+      "Silk Meadow is a gentle, luxurious handcrafted soap created for soft, nourished-looking skin. Colloidal oats help soothe and comfort the skin, while goat milk provides a creamy, moisturizing lather. Aloe vera oil and vitamin E help leave skin feeling hydrated, soft, and cared for.",
+
+    fragrance: "Soft & Gentle",
+
+    weight: "100 g",
+
+    ingredients: [
+      "Colloidal Oats",
+      "Goat Milk",
+      "Aloe Vera Oil",
+      "Vitamin E",
     ],
 
     benefits: [
       "Gentle Cleansing",
+      "Soothing",
+      "Moisturizing",
+      "Softening",
       "Rich Creamy Lather",
-      "Moisturizing",
-      "Sensitive Skin Friendly",
     ],
 
     featured: true,
+
+    badge: "NEW",
+
+    scentNotes: [
+      "Soft",
+      "Gentle",
+    ],
+
+    bestFor: [
+      "Gentle Care",
+      "Dry Skin",
+      "Sensitive Skin",
+      "Daily Use",
+    ],
+
+    skinType: "Dry & Sensitive Skin",
+
+    color: "Blush Pink & Cream",
   },
 
   {
-    slug: "tea-blossom",
+    slug: "golden-harmony",
 
-    name: "Tea Blossom",
+    name: "Golden Harmony",
 
     collection: "Essentials",
 
@@ -117,252 +193,57 @@ export const PRODUCTS: Product[] = [
 
     status: "In Stock",
 
-    price: 199,
+    price: 219,
 
-    image: "/images/products/tea-blossom.png",
+    image: "/images/products/golden-harmony.png",
 
     gallery: [
-      "/images/products/tea-blossom.png",
-      "/images/products/tea-blossom-2.png",
-      "/images/products/tea-blossom-3.png",
-      "/images/products/tea-blossom-4.png",
+      "/images/products/golden-harmony.png",
+      "/images/products/golden-harmony-2.png",
+      "/images/products/golden-harmony-3.png",
     ],
 
     shortDescription:
-      "Refreshing White Tea & Chamomile artisan soap.",
+      "A handcrafted turmeric, goat milk, and kojic powder soap for soft, radiant-looking skin.",
 
     description:
-      "A luxurious botanical blend inspired by calming tea gardens, creating a clean and refreshing bathing experience.",
+      "Golden Harmony combines turmeric, goat milk, and kojic powder in a handcrafted bar designed to leave skin feeling clean, soft, and nourished. Turmeric helps promote a brighter-looking, more even-looking complexion, while goat milk provides a creamy, moisturizing lather. Kojic powder is a popular skincare ingredient used to help improve the appearance of uneven skin tone over time.",
 
-    fragrance: "Fresh • Floral • Relaxing",
+    fragrance: "Warm & Natural",
 
     weight: "100 g",
 
     ingredients: [
-      "Palm Oil",
-      "Coconut Oil",
-      "Olive Oil",
-      "Castor Oil",
+      "Turmeric",
       "Goat Milk",
-      "Kaolin Clay",
-      "Vitamin E",
+      "Kojic Powder",
     ],
 
     benefits: [
-      "Refreshing",
-      "Hydrating",
-      "Rich Lather",
-      "Relaxing Aroma",
-    ],
-
-    featured: true,
-  },
-
-  {
-    slug: "citrus-linen",
-
-    name: "Citrus Linen",
-
-    collection: "Essentials",
-
-    category: "Bar Soap",
-
-    status: "In Stock",
-
-    price: 199,
-
-    image: "/images/products/citrus-linen.png",
-
-    gallery: [
-      "/images/products/citrus-linen.png",
-      "/images/products/citrus-linen-2.png",
-      "/images/products/citrus-linen-3.png",
-      "/images/products/citrus-linen-4.png",
-    ],
-
-    shortDescription:
-      "Fresh citrus balanced with crisp clean linen.",
-
-    description:
-      "Bright citrus notes meet fresh linen for a clean, energizing soap designed to refresh your skin and awaken your senses.",
-
-    fragrance: "Fresh Linen & Citrus",
-
-    weight: "100 g",
-
-    ingredients: [
-      "Palm Oil",
-      "Coconut Oil",
-      "Olive Oil",
-      "Castor Oil",
-      "Goat Milk",
-      "Kaolin Clay",
-      "Vitamin E",
-    ],
-
-    benefits: [
-      "Fresh Clean Scent",
-      "Creamy Foam",
-      "Hydrating",
-      "Long Lasting",
-    ],
-
-    featured: true,
-  },
-
-  {
-    slug: "golden-rose",
-
-    name: "Golden Rose",
-
-    collection: "Signature",
-
-    category: "Bar Soap",
-
-    status: "In Stock",
-
-    price: 249,
-
-    image: "/images/products/golden-rose.png",
-
-    gallery: [
-      "/images/products/golden-rose.png",
-      "/images/products/golden-rose-2.png",
-      "/images/products/golden-rose-3.png",
-      "/images/products/golden-rose-4.png",
-    ],
-
-    shortDescription:
-      "Elegant floral luxury with warm golden rose notes.",
-
-    description:
-      "Golden Rose is crafted for those who appreciate refined floral fragrances, rich creamy lather, and timeless luxury.",
-
-    fragrance: "Golden Rose",
-
-    weight: "100 g",
-
-    ingredients: [
-      "Palm Oil",
-      "Coconut Oil",
-      "Olive Oil",
-      "Castor Oil",
-      "Goat Milk",
-      "Kaolin Clay",
-      "Vitamin E",
-    ],
-
-    benefits: [
-      "Luxury Fragrance",
-      "Creamy Lather",
+      "Gentle Cleansing",
       "Moisturizing",
-      "Elegant Finish",
+      "Rich Creamy Lather",
+      "Radiant-Looking Skin",
+      "Nourishing",
     ],
 
     featured: true,
-  },
 
-  {
-    slug: "velvet-berry",
+    badge: "NEW",
 
-    name: "Velvet Berry",
-
-    collection: "Signature",
-
-    category: "Bar Soap",
-
-    status: "In Stock",
-
-    price: 249,
-
-    image: "/images/products/velvet-berry.png",
-
-    gallery: [
-      "/images/products/velvet-berry.png",
-      "/images/products/velvet-berry-2.png",
-      "/images/products/velvet-berry-3.png",
-      "/images/products/velvet-berry-4.png",
+    scentNotes: [
+      "Warm",
+      "Natural",
     ],
 
-    shortDescription:
-      "Rich berries wrapped in soft luxurious notes.",
-
-    description:
-      "Velvet Berry offers an indulgent blend of sweet berries with creamy handcrafted soap for an unforgettable bathing experience.",
-
-    fragrance: "Velvet Berry",
-
-    weight: "100 g",
-
-    ingredients: [
-      "Palm Oil",
-      "Coconut Oil",
-      "Olive Oil",
-      "Castor Oil",
-      "Goat Milk",
-      "Kaolin Clay",
-      "Vitamin E",
+    bestFor: [
+      "Radiant-Looking Skin",
+      "Daily Body Care",
+      "Face & Body",
     ],
 
-    benefits: [
-      "Luxury Fragrance",
-      "Creamy Lather",
-      "Hydrating",
-      "Long Lasting",
-    ],
+    skinType: "All Skin Types",
 
-    featured: true,
-  },
-
-  {
-    slug: "island-berry",
-
-    name: "Island Berry",
-
-    collection: "Signature",
-
-    category: "Bar Soap",
-
-    status: "In Stock",
-
-    price: 249,
-
-    image: "/images/products/island-berry.png",
-
-    gallery: [
-      "/images/products/island-berry.png",
-      "/images/products/island-berry-2.png",
-      "/images/products/island-berry-3.png",
-      "/images/products/island-berry-4.png",
-    ],
-
-    shortDescription:
-      "A vibrant tropical berry fragrance inspired by island escapes.",
-
-    description:
-      "Island Berry combines juicy tropical fruits with handcrafted luxury, producing a creamy, moisturizing lather and a refreshing island-inspired aroma.",
-
-    fragrance: "Island Berry",
-
-    weight: "100 g",
-
-    ingredients: [
-      "Palm Oil",
-      "Coconut Oil",
-      "Olive Oil",
-      "Castor Oil",
-      "Goat Milk",
-      "Kaolin Clay",
-      "Vitamin E",
-    ],
-
-    benefits: [
-      "Tropical Aroma",
-      "Rich Creamy Foam",
-      "Moisturizing",
-      "Luxury Finish",
-    ],
-
-    featured: true,
+    color: "Golden Turmeric",
   },
 ];
